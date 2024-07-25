@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TODO <meta> 태그로, 키워드, 설명, 이미지 등록하기 -->
+    <title>디자이너 민지의 포트폴리오</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="text/javascript" 
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script defer src="js/common.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="header">
+            <!-- 스크롤 됐을 때 검정 막대 -->
+             <div class="header_top">
+                <div class="inner">
+                    <h1 class="logo"><a href="#header"><span class="screen_out">민지의 포트폴리오</span></a></h1>
+                    <button type="button" class="btn_open"><span class="screen_out">메뉴 열기</span></button>
+                    <nav class="gnb" >
+                        <ul>
+                            <li><a href="#introduce">Introduce</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button type="button" class="btn_close"><span class="screen_out">메뉴 닫기</span></button>
+                </div>
+             </div>
+             <p class="header_title">
+                <span>Creative Designer</span><br>
+                Mia's Portfolio
+             </p>
+        </header>
+        <main class="main">
+            <section class="introduce" id="introduce">
+                <div class="inner">
+                    <h2 class="tit">Introduce</h2>
+                    <div class="cont">
+                        <div>
+                            <h3>About Me</h3>
+                            <div class="profile">
+                                <div class="img_wrap"> <img src="./img/profile.jpg" alt=""></div>
+                                <p>
+                                    <strong>김민지</strong>
+                                    Graphic Designer
+                                </p>
+                            </div>
+                            <p class="profile_txt">
+                                꽃 간에 투명하되 바이며, 얼마나 살았으며, 들어 같은 곳으로 봄바람ㄹ이다. 피고, 뜨고, 이상, 새 싸인 석가는 아니다. 앞이 같으며, 피어나는 보내는 인도하겠다는 이것이다. 때에, 만물은 천지는 길을 뼈 품고 용감하고 노래하며 날카로우나 이것이다. 속잎나고, 인생에 풍부하게 이상이 때까지 목숨이 방황하여도, 그들에게 그리하였는가? 얼음에 그림자는 얼마나 이는 무엇을 위하여서. 하여도 커다란 원대하고, 못하다 피는 새 꽃이 청춘은 위하여서. 보이는 목숨이 앞이 피는 무한한 살 피다. 
+                            </p>
+                        </div>
+                        <div>
+                            <h3>Experience</h3>
+                            <ol>
+                                <li>
+                                    <strong>그래픽</strong>
+                                <p>트고, 그것은 생의 곳이 열락의 부패뿐이다. 많이 대중을 위하여, 가치를 사막이다. 오직 밥을 오아이스도 있는가? </p>
+                                
+                                </li>
+                                <li>
+                                    <strong>UXUI 디자인</strong>
+                                <p>트고, 그것은 생의 곳이 열락의 부패뿐이다. 많이 대중을 위하여, 가치를 사막이다. 오직 밥을 오아이스도 있는가? </p>
+                                </li>
+                                <li>
+                                    <strong>개인작업</strong>
+                                <p>트고, 그것은 생의 곳이 열락의 부패뿐이다. 많이 대중을 위하여, 가치를 사막이다. 오직 밥을 오아이스도 있는가? </p>
+                                </li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3>Skills</h3>
+                            <ul class="skill_list">
+                                <li><strong>Adobe Illustrator</strong>
+                                <div class="bar">
+                                    <div class="gauge gauge1" style="width:95%"><span class="screen_out">95%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>Adobe Photoshop</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:90%"><span class="screen_out">90%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>Adobe InDesign</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:90%"><span class="screen_out">90%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>Branding</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:70%"><span class="screen_out">70%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>Adobe Premiere Pro</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:30%"><span class="screen_out">30%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>Adobe After Effects</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:30%"><span class="screen_out">30%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>Figma</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:60%"><span class="screen_out">60%</span></div>
+                                </div>
+                                </li>
+                                <li><strong>HTML/CSS</strong>
+                                <div class="bar">
+                                    <div class="gauge" style="width:40%"><span class="screen_out">40%</span></div>
+                                </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery" id="gallery">
+                <div class="inner">
+                    <h2 class="tit">Gallery</h2>
+                    <div class="cont">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <figure>
+                                        <img src="./img/portfolio01.jpg" alt="">
+                                        <figcaption>UX/UI Design <span>responsive web / Asseccbility</span></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure>
+                                        <img src="./img/portfolio02.jpg" alt="">
+                                        <figcaption>UX/UI Design <span>responsive web / Asseccbility</span></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure>
+                                        <img src="./img/portfolio03.jpg" alt="">
+                                        <figcaption>UX/UI Design <span>responsive web / Asseccbility</span></figcaption>
+                                    </figure>
+                                </div>
+                                <div class="swiper-slide">
+                                    <figure>
+                                        <img src="./img/portfolio01.jpg" alt="">
+                                        <figcaption>UX/UI Design <span>responsive web / Asseccbility</span></figcaption>
+                                    </figure>
+                                </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="inner">
+                    <h2 class="tit">Portfolio</h2>
+                    <div class="cont">
+                        <ul class="portfolio_list">
+                            <!-- <li>
+                                <a href="">
+                                    <div class="txt">
+                                        <strong>포트폴리오1</strong>
+                                        <p>#반응형웹 #2주작업 #웹접근성준수 #기타등등 #기타등등 #기타등등 #기타등등</p>
+                                    </div>
+                                    <img src="./img/portfolio01.jpg" alt="">
+                                </a>
+                            </li> -->
+                          
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="inner">
+                    <h2 class="tit">Contact</h2>
+                    <div class="cont">
+                        <form action="" id="myForm">
+                            <div class="input_item">
+                                <label for="name">이름</label>
+                                <input type="text" id="name" name="name" placeholder="이름을 입력해주세요" required>
+                            </div>
+                            <div class="input_item">
+                                <label for="tel">전화번호</label>
+                                <input type="text" id="tel" name="tel" placeholder="전화번호를 입력해주세요">
+                            </div>
+                            <div class="input_item">
+                                <label for="email">이메일</label>
+                                <input type="text" id="email" name="email" placeholder="이메일을 입력해주세요" required>
+                            </div>
+                            <div class="input_item">
+                                <label for="message">내용</label>
+                                <textarea id="message" name="message" placeholder="메시지를 입력해주세요" required></textarea>
+                            </div>
+                            <button type="submit">메시지 보내기</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+        <p>© 2024 Mia Copyright All Rights Reserved.</p>
+        </footer>
+    </div>
+    <div class="portfolio_pop">
+        <div class="dim"></div>
+            <div class="content">
+                <div>
+                    <h1>포폴 제목</h1>
+                    <p>설명 내용</p>
+                    <div class="img_wrap"></div>
+                </div>
+                <!-- <img src="${data}" alt=""> -->
+                <button>닫기</button>
+            </div>
+    </div>
+</body>
+</html>
